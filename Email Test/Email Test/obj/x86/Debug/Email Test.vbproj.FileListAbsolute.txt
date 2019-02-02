@@ -1,0 +1,9 @@
+D:\Student Projects 2014-15\Email Test\Email Test\bin\Debug\Email Test.exe
+D:\Student Projects 2014-15\Email Test\Email Test\bin\Debug\Email Test.pdb
+D:\Student Projects 2014-15\Email Test\Email Test\bin\Debug\Email Test.xml
+D:\Student Projects 2014-15\Email Test\Email Test\obj\x86\Debug\Email_Test.Form1.resources
+D:\Student Projects 2014-15\Email Test\Email Test\obj\x86\Debug\Email_Test.Resources.resources
+D:\Student Projects 2014-15\Email Test\Email Test\obj\x86\Debug\Email Test.vbproj.GenerateResource.Cache
+D:\Student Projects 2014-15\Email Test\Email Test\obj\x86\Debug\Email Test.exe
+D:\Student Projects 2014-15\Email Test\Email Test\obj\x86\Debug\Email Test.xml
+D:\Student Projects 2014-15\Email Test\Email Test\obj\x86\Debug\Email Test.pdb

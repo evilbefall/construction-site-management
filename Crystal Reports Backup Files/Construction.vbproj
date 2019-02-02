@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A4E6FC7-DFC5-4015-9430-4268B1C1F138}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Construction.My.MyApplication</StartupObject>
+    <RootNamespace>Construction</RootNamespace>
+    <AssemblyName>Construction</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Construction.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Construction.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cryst_advance.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cryst_advance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdvancePay.Designer.vb">
+      <DependentUpon>FrmAdvancePay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdvancePay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaterial.Designer.vb">
+      <DependentUpon>FrmMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegister.Designer.vb">
+      <DependentUpon>FrmRegister.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsearchenquiry.Designer.vb">
+      <DependentUpon>frmsearchenquiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsearchenquiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtax.Designer.vb">
+      <DependentUpon>frmtax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmtax.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_agrement.Designer.vb">
+      <DependentUpon>frm_agrement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_agrement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_booking.Designer.vb">
+      <DependentUpon>frm_booking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_booking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_changepass.Designer.vb">
+      <DependentUpon>frm_changepass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_changepass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_company.Designer.vb">
+      <DependentUpon>frm_company.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_company.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cryst_advance.Designer.vb">
+      <DependentUpon>frm_cryst_advance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cryst_advance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_employee.Designer.vb">
+      <DependentUpon>frm_employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_enquiry.Designer.vb">
+      <DependentUpon>frm_enquiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_enquiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_flat.Designer.vb">
+      <DependentUpon>frm_flat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_flat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_newProject.Designer.vb">
+      <DependentUpon>frm_newProject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_newProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cryst_advance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cryst_advance.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdvancePay.resx">
+      <DependentUpon>FrmAdvancePay.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaterial.resx">
+      <DependentUpon>FrmMaterial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegister.resx">
+      <DependentUpon>FrmRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsearchenquiry.resx">
+      <DependentUpon>frmsearchenquiry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmtax.resx">
+      <DependentUpon>frmtax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_agrement.resx">
+      <DependentUpon>frm_agrement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_booking.resx">
+      <DependentUpon>frm_booking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_changepass.resx">
+      <DependentUpon>frm_changepass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_company.resx">
+      <DependentUpon>frm_company.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cryst_advance.resx">
+      <DependentUpon>frm_cryst_advance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_employee.resx">
+      <DependentUpon>frm_employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_enquiry.resx">
+      <DependentUpon>frm_enquiry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_flat.resx">
+      <DependentUpon>frm_flat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_newProject.resx">
+      <DependentUpon>frm_newProject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jellyfish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1418209931_79524.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
